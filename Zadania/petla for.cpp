@@ -34,7 +34,7 @@ do
 while (odp='t');
 */
 //X
-int m;
+/*int m;
 char odp;
 int pod;
 	do{
@@ -58,6 +58,45 @@ int pod;
 		
 		
 	}while (odp=='t');
+*/
+//zad3
+/*I
+int lb;
+int pr;
+cout<< "podaj liczbe calkowita: "<< endl;
+cin>> lb;
+	for(int i=1;i<=lb;i++)
+	{
+		pr=i%2;
+				if(pr==0)
+			{
+			 cout<< "liczba jest parzysta"<< i<< endl;
+			}	
+	}
+*/
+//zad4
+int suma= 2;
+int wysokosc,szerokosc;
+cout<< "podaj wysokosc"<< endl;
+cin>> wysokosc;
+cout<<"podaj szerokosc"<<endl;
+cin>>szerokosc;
+	for (int i = 1; i < wysokosc; i++) {
+     
+   		 for (int j = 1; j < szerokosc; j++)
+		 {
+		 	
+    	   suma+=2;
+    	    cout<<suma<< "\t";
+
+    	}
+    	cout << endl;
+    }
+
+
+
+
+
 
     return 0;
 }
