@@ -75,7 +75,7 @@ cin>> lb;
 	}
 */
 //zad4
-int suma= 2;
+/*int suma= 2;
 int wysokosc,szerokosc;
 cout<< "podaj wysokosc"<< endl;
 cin>> wysokosc;
@@ -92,6 +92,62 @@ cin>>szerokosc;
     	}
     	cout << endl;
     }
+*/
+//zad5
+/*int n;
+cout<<"podaj liczbe calkowita: "<<endl;
+	cin>> n;
+int mnozenie;
+		for (int a=1;a<=n;a++){
+			
+			cout<< " "<<endl;
+				for (int b=1; b<=n; b++){
+					int wynik= a*b;
+				cout<< a<<" * "<< b <<" = "<< wynik<<endl;
+				
+				
+				
+				
+				
+				}
+				
+			}
+*/
+//zad6
+int klocek;
+int wysokosc;
+cout<< "podaj wysokosc: "<<endl;
+cin>> wysokosc;
+int szerokosc;
+cout<<"podaj szerokosc:"<< endl;
+cin>> szerokosc;
+	for (int w=0;w<=wysokosc;w++){
+		
+		
+			for (int s=0;s<=szerokosc;s++){
+			
+			if ()
+			cout<< "* ";
+				
+				
+			
+				//DOKONCZ TO COS Z IF XD
+				
+				
+				
+				
+			}
+		
+		cout<< endl;
+		
+		
+		
+		
+	}	
+
+
+
+
 
 
 
