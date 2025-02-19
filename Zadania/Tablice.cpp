@@ -35,6 +35,7 @@ int tablica [5];
     }
 	*/
 	//zad3
+	/*
 	int tablica [5];
 		cout<<"wprowadz 5 liczb dodatnich i ujemnych"<<endl;
 			for (int i=0;i <5;i++){
@@ -51,7 +52,30 @@ int tablica [5];
        							 }
 				
 				}
+	*/
+	//zad4
 	
+	int tablica[10]; 
+    int sp = 0; 
+    cout << "Wprowadz 10 liczb calkowitych: " << endl;
+   			 for (int i = 0; i < 10; i++) {
+   			 	cout<< "podaj liczbe nr "<<i+1<<endl;
+       		 cin >> tablica[i];
+   			 }
+    cout << "Liczby parzyste: ";
+    bool pl = true; 
+	for (int i = 0; i < 10; i++){
+	
+        	if (tablica[i] % 2 == 0) {
+            if (!pl) {
+                cout << ", ";
+            }
+            cout << tablica[i];
+            sp += tablica[i];
+            pl = false;
+        }
+}
+	cout<<endl<<"suma liczb parzystych wynosi "<< sp<<endl;
 	
 	
 			
