@@ -54,7 +54,7 @@ int tablica [5];
 				}
 	*/
 	//zad4
-	
+/*	
 	int tablica[10]; 
     int sp = 0; 
     cout << "Wprowadz 10 liczb calkowitych: " << endl;
@@ -76,9 +76,22 @@ int tablica [5];
         }
 }
 	cout<<endl<<"suma liczb parzystych wynosi "<< sp<<endl;
-	
-	
-			
+	*/
+	//zad 5
+	int tablica[3][3];
+	float srednia;
+	int suma=0;
+	cout<< "podaj 9 liczb calkowitych"<<endl;
+		for(int l=0;l<3;l++){
+			for(int d=0;d<3;d++){
+				 cout<<"podaj liczbe dla wiersza "<<l+1<<" kolumny "<<d+1<<endl;
+				cin>>tablica [l][d];
+				suma+= tablica[l][d];	
+			}
+		 }
+		cout<< "suma wynosi "<<suma<<endl;
+		srednia= suma/9.0;
+		cout<< "srednia wynosi: "<<srednia <<endl;	
 		
 		
 		
