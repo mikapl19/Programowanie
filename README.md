@@ -6,3 +6,4 @@ Nazywam się **Natalia Poddubna** a to moje repozytorium zawierające zadania z 
 * Pętla while i do-while✅
 * Pętla for✅
 * Zmienne tablicowe✅
+*Tablice znakowe i obiekty string✅
