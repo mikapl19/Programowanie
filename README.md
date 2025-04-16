@@ -7,3 +7,4 @@ Nazywam się **Natalia Poddubna** a to moje repozytorium zawierające zadania z 
 * Pętla for✅
 * Zmienne tablicowe✅
  * Tablice znakowe i obiekty string✅
+ * Funkcje✅
