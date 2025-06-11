@@ -9,3 +9,4 @@ Nazywam się **Natalia Poddubna** a to moje repozytorium zawierające zadania z 
  * Tablice znakowe i obiekty string✅
  * Funkcje✅
 * Rekurencja i przeciążenie funkcji✅
+*  Wskaźniki✅
